@@ -1,0 +1,50 @@
+#title-container #planet-icon {
+    color: var(--primary);
+    width: 100px;
+    height: 100px;
+}
+
+#title-container {
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.text-content{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mars-text {
+    font-weight: 400;
+    font-size: 75px;
+    margin: 0;
+}
+
+.sub-text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 5px;
+    margin: 0 0 0 5px;
+}
+
+@media screen  and (max-width: 800px) {
+    #title-container #planet-icon {
+        height: 45px;
+        width: 45px;
+    }
+    #title-container {
+        margin-top: 0px;
+    }
+    .mars-text {
+        font-size: 25px;
+
+    }
+
+    .sub-text {
+        font-size: 12px;
+        margin: 5px 0 0 0;
+    }
+}

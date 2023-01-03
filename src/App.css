@@ -1,0 +1,10 @@
+.App {
+  background-image: url('./assets/nightsky-16967_1280.webp');
+  background-repeat: repeat;
+}
+
+@media screen and (max-width: 800px){
+  .App {
+    padding: 10px;
+  }
+}

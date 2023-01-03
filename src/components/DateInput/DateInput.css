@@ -1,0 +1,16 @@
+#date-input {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 0.9rem;
+    color: var(--secondary);
+    background-color: black;
+    outline: none;
+    border: 1px solid var(--secondary);
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+#date-input.error {
+    border-color: red
+}

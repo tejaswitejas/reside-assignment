@@ -1,0 +1,9 @@
+#bg-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../../assets/nightsky-16967_1280.webp');
+    z-index: -1;
+}

@@ -1,0 +1,39 @@
+#images-container {
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.images-sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    flex: 1;
+}
+.Loading-text {
+    color: var(--secondary);
+    font-size: 10px;
+}
+
+.image_dimensions{
+    width: 250px; 
+}
+
+.Loading-text {
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.loader-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+@media  screen and (max-width: 400px) {
+    .image_dimensions {
+        width: 49.25%;
+    }
+}

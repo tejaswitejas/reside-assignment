@@ -1,0 +1,14 @@
+
+#loader-icon-container #loader-icon {
+    color: var(--primary);
+    font-size: 5rem;
+    animation-name: loading;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes loading {
+    from {margin-top: 0}
+    to {margin-top: 20px}
+}

@@ -1,0 +1,21 @@
+#error-message-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    color: var(--danger);
+    font-size: 2rem;
+    text-align: left;
+}
+
+@media screen and  (max-width:800px) {
+    .space-broke {
+        height: 75px;
+    }
+    .message {
+        font-size: 1rem;
+    }
+}

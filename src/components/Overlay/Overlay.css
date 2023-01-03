@@ -1,0 +1,11 @@
+#overlay-container {
+    height: 100%;
+    width: 100%;
+    background-color: var(--tertiary);
+    opacity: 30%;
+    display: flex;
+}
+
+.absolute {
+    position: absolute;
+}

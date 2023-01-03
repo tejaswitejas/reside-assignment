@@ -1,0 +1,10 @@
+:root {
+    --primary: #D0471C;
+    --primary-contrast: #FFF;
+    --secondary: #FFF;
+    --secondary-contrast: #000;
+    --secondary-shade: #D9D9D9;
+    --secodary-tint: #9F938F;
+    --tertiary: #000;
+    --danger: #AA0000;
+}

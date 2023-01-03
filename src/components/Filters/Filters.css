@@ -1,0 +1,19 @@
+#filters-section{
+    display: flex;
+}
+
+.date-type-section {
+    padding: 0 20px;
+}
+.get-images-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 800px){
+    #filters-section {
+        flex-direction: column;
+        margin-top: 20px;
+    }  
+}
